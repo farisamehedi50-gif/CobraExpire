@@ -1,0 +1,30 @@
+{
+  "name": "cobra-expire-school-info",
+  "version": "1.0.0",
+  "description": "EMIS School Teacher Info API - Node.js port of CobraExpireSchoolInfo.php",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "emis",
+    "bangladesh",
+    "school",
+    "teacher",
+    "eiin",
+    "api"
+  ],
+  "author": "MehediSanix",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
